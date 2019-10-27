@@ -1,5 +1,7 @@
 # Playbook - Feature Flagging
 
+[![Build Status](https://travis-ci.com/cacodev/playbook.svg?branch=master)](https://travis-ci.com/cacodev/playbook)
+
 Ready to start feature flagging? Add Playbook to your project and setup a feature flag playbook today!
 
 Playbook is a simple way to add feature flagging to your ASP.net core project. First, You create a configuration with plays and add players to that play. Then, you can either leverage the services that Playbook provides or call the Playbook api from your client.
