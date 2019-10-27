@@ -1,0 +1,6 @@
+language: csharp
+dotnet: 3.0
+script:
+ - dotnet test **/*Tests*.csproj
+ - dotnet pack -c $BUILD_CONFIG -o build_out src/Playbook
+ - dotnet nuget push build_out/*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json
